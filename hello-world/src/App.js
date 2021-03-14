@@ -5,11 +5,16 @@ import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Messages from './components/Messages'
 import Counter from './components/Counter'
+import FunctopnClick from './components/FunctionClick'
+import ClassClick from './components/ClassClick'
+
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <ClassClick />
+      <FunctopnClick />
+      {/* <Counter /> */}
       {/* <Messages /> */}
       {/* <Greet name="Bruce" heroName='Batman'>
         <p>This is children props</p>
